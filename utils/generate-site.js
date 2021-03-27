@@ -22,7 +22,7 @@ const writeFile = fileContent => {
   // copying file
 const copyFile = () => {
     return new Promise((resolve, reject) => {
-      fs.copyFile('./src/style 3.css', './dist/style 3.css', err => {
+      fs.copyFile('./src/styleme.css', './dist/styleme.css', err => {
         if (err) {
           reject(err);
           return;
